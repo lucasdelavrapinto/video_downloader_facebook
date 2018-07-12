@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>APP DOWNLOAD</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('.static', filename='style.css') }}">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>	
+<div class="container">
+	<h1>FREE DOWNLOAD VIDEO FACEBOOK</h1>
+	<div class="row">
+		<form action="/result" method="POST">
+
+			<div class="col-md-11">
+					<label for="url">Modelo de URL: <a href="https://www.facebook.com/boredpanda/videos/10156923016164252/">https://www.facebook.com/boredpanda/videos/10156923016164252/</a></label>
+					<input class="form-control" id="url" type="text" name="url" 
+					placeholder="Adicione aqui a url que você deseja fazer download do video" required="">	
+			</div>
+			<div class="col-md-1">
+				<button type="submit" class="btn btn-success">Baixar</button>
+			</div>
+
+		</form>
+	</div>
+	
+	<div>
+		<footer>
+			<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a> 
+			<a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>  
+			<a href="#" target="_blank"><i class="fa fa-git fa-2x"></i></a> 
+			<a href="#" target="_blank"><i class="fa fa-globe fa-2x"></i></a> 
+		</footer>
+	</div>
+</div>
+</body>
+</html>
